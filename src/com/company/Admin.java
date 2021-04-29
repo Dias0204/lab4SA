@@ -3,12 +3,13 @@ package com.company;
 public class Admin {
     private String addparts;
     private String deleteparts;
+    private String asd;
 
-    public Admin(String addparts, String deleteparts) {
+    public Admin(String addparts, String deleteparts, String asd) {
         this.addparts = addparts;
         this.deleteparts = deleteparts;
-        //hello
-        //&&
+        this.deleteparts = asd;
+
     }
 
     public String getAddparts() {
