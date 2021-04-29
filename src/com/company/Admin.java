@@ -7,6 +7,8 @@ public class Admin {
     public Admin(String addparts, String deleteparts) {
         this.addparts = addparts;
         this.deleteparts = deleteparts;
+        //hello
+        //&&
     }
 
     public String getAddparts() {
